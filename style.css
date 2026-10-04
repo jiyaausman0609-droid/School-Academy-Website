@@ -1,0 +1,2203 @@
+/* ================= GENERAL ================= */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F8FC;
+}
+
+
+/* ================= NAVBAR ================= */
+
+nav {
+    display: flex;
+    background-color: #123B6D;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    min-height: 70px;
+}
+
+.logo h2 {
+    color: #FFFFFF;
+    font-size: 26px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #7DD3FC;
+}
+
+.index-nav-button {
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    padding: 11px 22px;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+
+.index-nav-button:hover {
+
+    background-color: #7DD3FC;
+
+    color: #123B6D;
+}
+
+
+
+/* ================= HERO ================= */
+
+.hero-section{
+    text-align: center;
+    min-height: 70vh;
+    padding: 40px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F5F8FC;
+}
+
+.hero-section h1 {
+    color: #123B6D;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #1F2937;
+    margin-bottom: 30px;
+}
+
+.hero-section button {
+    padding: 13px 28px;
+    background-color: #2F80ED;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-section button:hover {
+    background-color: #123B6D;
+}
+
+.hero-section a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about {
+    background-color: #FFFFFF;
+    padding: 70px 20px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 800px;
+}
+
+.about-content h1 {
+    color: #123B6D;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.about-content p {
+    color: #1F2937;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about-list {
+    margin-top: 25px;
+    color: #2F80ED;
+    list-style: none;
+    font-size: 16px;
+}
+
+.about-list li {
+    margin-bottom: 10px;
+}
+
+
+/* ================= WHY CHOOSE US ================= */
+
+.why-us {
+    background-color: #F5F8FC;
+    padding: 70px 5%;
+    text-align: center;
+}
+
+.why-us h1 {
+    color: #123B6D;
+    margin-bottom: 40px;
+}
+
+.why-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.why-card {
+    background-color: #FFFFFF;
+    flex: 1;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+    color: #2F80ED;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.why-card h2 {
+    color: #123B6D;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.why-card p {
+    color: #1F2937;
+    line-height: 1.6;
+}
+
+
+/* ================= POPULAR COURSES ================= */
+
+.courses {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 70px 5%;
+}
+
+.courses h1 {
+    color: #123B6D;
+    margin-bottom: 40px;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.course-card {
+    padding: 30px 20px;
+    flex: 1;
+    background-color: #F5F8FC;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.course-card h3 {
+    color: #123B6D;
+    margin-bottom: 20px;
+}
+
+.course-card p {
+    color: #1F2937;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.course-card button {
+    background-color: #2F80ED;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.course-card button:hover {
+    background-color: #7DD3FC;
+}
+
+.course-card a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.course-card a:hover {
+    color: #1F2937;
+}
+
+
+/* ================= ACHIEVEMENTS ================= */
+
+.achievements {
+    background-color: #123B6D;
+    padding: 70px 5%;
+    text-align: center;
+}
+
+.achievements h1 {
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.stat-card {
+    flex: 1;
+    background-color: #FFFFFF;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.stat-card h2 {
+    color: #2F80ED;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    color: #1F2937;
+}
+
+
+/* ================= CALL TO ACTION ================= */
+
+.cta {
+    background-color: #F5F8FC;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.cta h1 {
+    color: #123B6D;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    color: #1F2937;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.cta button {
+    background-color: #2F80ED;
+    border: none;
+    padding: 13px 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta button:hover {
+    background-color: #123B6D;
+}
+
+.cta a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background-color: #123B6D;
+    color: #FFFFFF;
+    padding: 60px 5% 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+    flex: 1;
+}
+
+.footer h2 {
+    margin-bottom: 15px;
+}
+
+.footer h3 {
+    margin-bottom: 15px;
+}
+
+.footer p {
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #7DD3FC;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+
+/* ================================================= */
+/* ================= TABLET ======================== */
+/* ================================================= */
+
+@media (max-width: 900px) {
+
+    /* Navbar */
+
+    nav {
+        padding: 15px 3%;
+    }
+
+    .nav-links {
+        gap: 18px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .logo h2 {
+        font-size: 22px;
+    }
+
+    nav button {
+        padding: 9px 15px;
+    }
+
+
+    /* Hero */
+
+    .hero-section h1 {
+        font-size: 40px;
+    }
+
+    .hero-section p {
+        font-size: 17px;
+    }
+
+
+    /* Cards */
+
+    .why-container,
+    .course-container {
+        gap: 15px;
+    }
+
+    .why-card,
+    .course-card {
+        padding: 25px 15px;
+    }
+
+
+    /* Statistics */
+
+    .stats-container {
+        gap: 15px;
+    }
+
+    .stat-card {
+        padding: 25px 15px;
+    }
+
+
+    /* Footer */
+
+    .footer-content {
+        gap: 25px;
+    }
+}
+
+
+/* ================================================= */
+/* ================= MOBILE ======================== */
+/* ================================================= */
+
+@media (max-width: 650px) {
+
+    /* Navbar */
+
+    nav {
+        flex-direction: column;
+        gap: 18px;
+        padding: 20px;
+    }
+
+    .logo h2 {
+        font-size: 24px;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px 20px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    nav button {
+        width: auto;
+    }
+
+
+    /* Hero */
+
+    .hero-section{
+    min-height: 60vh;
+    padding: 30px 15px;
+}
+
+    .hero-section h1 {
+        font-size: 32px;
+    }
+
+    .hero-section p {
+        font-size: 16px;
+    }
+
+    .hero-section button {
+        padding: 12px 22px;
+    }
+
+
+    /* About */
+
+    .about {
+        padding: 60px 20px;
+    }
+
+    .about-content h1 {
+        font-size: 28px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+    }
+
+
+    /* Why Choose Us */
+
+    .why-us {
+        padding: 60px 20px;
+    }
+
+    .why-container {
+        flex-direction: column;
+    }
+
+    .why-card {
+        width: 100%;
+    }
+
+
+    /* Courses */
+
+    .courses {
+        padding: 60px 20px;
+    }
+
+    .course-container {
+        flex-direction: column;
+    }
+
+    .course-card {
+        width: 100%;
+    }
+
+
+    /* Achievements */
+
+    .achievements {
+        padding: 60px 20px;
+    }
+
+    .stats-container {
+        flex-direction: column;
+    }
+
+    .stat-card {
+        width: 100%;
+    }
+
+
+    /* CTA */
+
+    .cta {
+        padding: 60px 20px;
+    }
+
+    .cta h1 {
+        font-size: 28px;
+    }
+
+    .cta p {
+        font-size: 16px;
+    }
+
+
+    /* Footer */
+
+    .footer {
+        padding: 50px 20px 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links {
+        align-items: center;
+    }
+}
+
+/* =====================================================
+COURSES PAGE
+===================================================== */
+
+/* ================= COURSES HERO ================= */
+
+.courses-hero {
+background-color: #123B6D;
+color: #FFFFFF;
+min-height: 45vh;
+padding: 60px 20px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+text-align: center;
+
+}
+
+.courses-hero-content {
+max-width: 750px;
+}
+
+.courses-hero h1 {
+color: #FFFFFF;
+font-size: 48px;
+margin-bottom: 20px;
+}
+
+.courses-hero p {
+color: #FFFFFF;
+font-size: 18px;
+line-height: 1.7;
+margin: 0;
+}
+
+/* ================= ALL COURSES ================= */
+
+.all-courses {
+background-color: #F5F8FC;
+padding: 70px 5%;
+
+/* Important: keeps heading above cards */
+display: block;
+}
+
+/* Courses heading */
+
+.all-courses > h1 {
+display: block;
+
+width: 100%;
+
+color: #123B6D;
+
+text-align: center;
+
+font-size: 36px;
+
+margin: 0 auto 45px auto;
+
+padding: 0;
+}
+
+/* ================= COURSES GRID ================= */
+
+.courses-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+
+gap: 25px;
+
+width: 100%;
+}
+
+/* ================= COURSE CARD ================= */
+
+.course-box {
+background-color: #FFFFFF;
+
+padding: 30px 25px;
+
+border-radius: 10px;
+
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+text-align: left;
+
+transition: transform 0.3s ease,
+            box-shadow 0.3s ease;
+}
+
+.course-box:hover {
+transform: translateY(-6px);
+box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.course-box h2 {
+color: #123B6D;
+
+font-size: 24px;
+
+margin: 0 0 15px 0;
+
+}
+
+.course-box p {
+color: #1F2937;
+
+line-height: 1.6;
+
+margin: 0 0 20px 0;
+
+}
+
+/* Course list */
+
+.course-box ul {
+list-style: none;
+
+padding: 0;
+
+margin: 0 0 25px 0;
+
+}
+
+.course-box li {
+color: #1F2937;
+
+margin-bottom: 10px;
+
+}
+
+.course-box li::before {
+content: "✓ ";
+
+color: #2F80ED;
+
+font-weight: bold;
+
+}
+
+/* ================= ENROLL BUTTON ================= */
+
+.course-button {
+display: inline-block;
+
+background-color: #2F80ED;
+
+color: #FFFFFF;
+
+text-decoration: none;
+
+padding: 11px 22px;
+
+border-radius: 25px;
+
+transition: 0.3s;
+
+}
+
+.course-button:hover {
+background-color: #123B6D;
+}
+
+/* ================= COURSES CTA ================= */
+
+.courses-cta {
+background-color: #FFFFFF;
+
+padding: 70px 20px;
+
+text-align: center;
+
+}
+
+.courses-cta h1 {
+color: #123B6D;
+
+font-size: 34px;
+
+margin: 0 0 15px 0;
+
+}
+
+.courses-cta p {
+color: #1F2937;
+
+line-height: 1.6;
+
+margin: 0 0 25px 0;
+
+}
+
+.courses-cta a {
+display: inline-block;
+
+background-color: #2F80ED;
+
+color: #FFFFFF;
+
+text-decoration: none;
+
+padding: 13px 28px;
+
+border-radius: 25px;
+
+transition: 0.3s;
+}
+
+.courses-cta a:hover {
+background-color: #123B6D;
+}
+.courses-nav-button {
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    padding: 11px 22px;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+
+.courses-nav-button:hover {
+
+    background-color: #7DD3FC;
+
+    color: #123B6D;
+}
+
+
+/* =====================================================
+COURSES TABLET
+===================================================== */
+
+@media (max-width: 900px) {
+
+.courses-hero h1 {
+    font-size: 40px;
+}
+
+.courses-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+/* =====================================================
+COURSES MOBILE
+===================================================== */
+
+@media (max-width: 650px) {
+
+.courses-hero {
+    min-height: 40vh;
+
+    padding: 50px 20px;
+}
+
+.courses-hero h1 {
+    font-size: 32px;
+}
+
+.courses-hero p {
+    font-size: 16px;
+}
+
+.all-courses {
+    padding: 60px 20px;
+}
+
+.all-courses > h1 {
+    font-size: 28px;
+
+    margin-bottom: 35px;
+}
+
+.courses-grid {
+    grid-template-columns: 1fr;
+}
+
+.course-box {
+    padding: 25px 20px;
+}
+
+.courses-cta {
+    padding: 60px 20px;
+}
+
+.courses-cta h1 {
+    font-size: 28px;
+}
+
+}
+
+/* =====================================================
+   TEACHERS PAGE
+   ===================================================== */
+
+
+/* ================= TEACHERS HERO ================= */
+
+.teachers-hero {
+
+    background-color: #123B6D;
+
+    color: #FFFFFF;
+
+    min-height: 45vh;
+
+    padding: 60px 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+
+.teachers-hero-content {
+
+    max-width: 750px;
+}
+
+
+.teachers-hero h1 {
+
+    color: #FFFFFF;
+
+    font-size: 48px;
+
+    margin-bottom: 20px;
+}
+
+
+.teachers-hero p {
+
+    color: #FFFFFF;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    margin: 0;
+}
+
+
+/* ================= TEACHERS SECTION ================= */
+
+.teachers-section {
+
+    background-color: #F5F8FC;
+
+    padding: 70px 5%;
+
+    text-align: center;
+}
+
+
+.teachers-section > h1 {
+
+    color: #123B6D;
+
+    font-size: 36px;
+
+    margin: 0 0 15px 0;
+}
+
+
+.teachers-intro {
+
+    color: #1F2937;
+
+    max-width: 700px;
+
+    margin: 0 auto 45px auto;
+
+    line-height: 1.6;
+
+    font-size: 17px;
+}
+
+
+/* ================= TEACHERS GRID ================= */
+
+.teachers-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    width: 100%;
+}
+
+
+/* ================= TEACHER CARD ================= */
+
+.teacher-card {
+
+    background-color: #FFFFFF;
+
+    padding: 30px 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+    text-align: center;
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+
+.teacher-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ================= TEACHER ICON ================= */
+
+.teacher-icon {
+
+    width: 80px;
+
+    height: 80px;
+
+    margin: 0 auto 20px auto;
+
+    border-radius: 50%;
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+
+.teacher-card h2 {
+
+    color: #123B6D;
+
+    font-size: 23px;
+
+    margin-bottom: 10px;
+}
+
+
+.teacher-card h3 {
+
+    color: #2F80ED;
+
+    font-size: 16px;
+
+    margin-bottom: 15px;
+}
+
+
+.teacher-card p {
+
+    color: #1F2937;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+}
+
+
+/* ================= TEACHER INFO ================= */
+
+.teacher-info {
+
+    border-top: 1px solid #E5E7EB;
+
+    padding-top: 15px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+
+.teacher-info span {
+
+    color: #1F2937;
+
+    font-size: 14px;
+}
+
+
+/* ================= TEACHERS CTA ================= */
+
+.teachers-cta {
+
+    background-color: #FFFFFF;
+
+    padding: 70px 20px;
+
+    text-align: center;
+}
+
+
+.teachers-cta h1 {
+
+    color: #123B6D;
+
+    font-size: 34px;
+
+    margin: 0 0 15px 0;
+}
+
+
+.teachers-cta p {
+
+    color: #1F2937;
+
+    line-height: 1.6;
+
+    margin: 0 0 25px 0;
+}
+
+
+.teachers-cta a {
+
+    display: inline-block;
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    padding: 13px 28px;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+
+.teachers-cta a:hover {
+
+    background-color: #123B6D;
+}
+
+
+/* ================= TEACHERS NAV BUTTON ================= */
+
+.teachers-nav-button {
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    padding: 11px 22px;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+
+.teachers-nav-button:hover {
+
+    background-color: #7DD3FC;
+
+    color: #123B6D;
+}
+
+
+/* =====================================================
+   TEACHERS TABLET
+   ===================================================== */
+
+@media (max-width: 900px) {
+
+    .teachers-hero h1 {
+
+        font-size: 40px;
+    }
+
+
+    .teachers-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* =====================================================
+   TEACHERS MOBILE
+   ===================================================== */
+
+@media (max-width: 650px) {
+
+    .teachers-hero {
+
+        min-height: 40vh;
+
+        padding: 50px 20px;
+    }
+
+
+    .teachers-hero h1 {
+
+        font-size: 32px;
+    }
+
+
+    .teachers-hero p {
+
+        font-size: 16px;
+    }
+
+
+    .teachers-section {
+
+        padding: 60px 20px;
+    }
+
+
+    .teachers-section > h1 {
+
+        font-size: 28px;
+    }
+
+
+    .teachers-intro {
+
+        font-size: 16px;
+
+        margin-bottom: 35px;
+    }
+
+
+    .teachers-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .teacher-card {
+
+        padding: 25px 20px;
+    }
+
+
+    .teachers-cta {
+
+        padding: 60px 20px;
+    }
+
+
+    .teachers-cta h1 {
+
+        font-size: 28px;
+    }
+
+}
+
+/* =====================================================
+   FEES PAGE
+   ===================================================== */
+
+
+/* ================= FEES HERO ================= */
+
+.fees-hero {
+
+    background-color: #123B6D;
+
+    color: #FFFFFF;
+
+    min-height: 45vh;
+
+    padding: 60px 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+
+.fees-hero-content {
+
+    max-width: 750px;
+}
+
+
+.fees-hero h1 {
+
+    color: #FFFFFF;
+
+    font-size: 48px;
+
+    margin-bottom: 20px;
+}
+
+
+.fees-hero p {
+
+    color: #FFFFFF;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    margin: 0;
+}
+
+
+/* ================= FEES SECTION ================= */
+
+.fees-section {
+
+    background-color: #F5F8FC;
+
+    padding: 70px 5%;
+
+    text-align: center;
+}
+
+
+.fees-section > h1 {
+
+    color: #123B6D;
+
+    font-size: 36px;
+
+    margin: 0 0 15px 0;
+}
+
+
+.fees-intro {
+
+    color: #1F2937;
+
+    max-width: 700px;
+
+    margin: 0 auto 45px auto;
+
+    line-height: 1.6;
+
+    font-size: 17px;
+}
+
+
+/* ================= FEES GRID ================= */
+
+.fees-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    width: 100%;
+}
+
+
+/* ================= FEE CARD ================= */
+
+.fee-card {
+
+    position: relative;
+
+    background-color: #FFFFFF;
+
+    padding: 35px 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+    text-align: center;
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+
+.fee-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+
+.fee-card h2 {
+
+    color: #123B6D;
+
+    font-size: 26px;
+
+    margin-bottom: 15px;
+}
+
+
+.fee-description {
+
+    color: #1F2937;
+
+    line-height: 1.6;
+
+    min-height: 55px;
+
+    margin-bottom: 20px;
+}
+
+
+/* ================= PRICE ================= */
+
+.price {
+
+    color: #2F80ED;
+
+    font-size: 36px;
+
+    font-weight: bold;
+
+    margin-bottom: 25px;
+}
+
+
+.price span {
+
+    font-size: 18px;
+}
+
+
+.price small {
+
+    color: #1F2937;
+
+    font-size: 14px;
+
+    font-weight: normal;
+}
+
+
+/* ================= FEE LIST ================= */
+
+.fee-card ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0 0 30px 0;
+
+    text-align: left;
+}
+
+
+.fee-card li {
+
+    color: #1F2937;
+
+    padding: 10px 0;
+
+    border-bottom: 1px solid #E5E7EB;
+}
+
+
+.fee-card li::before {
+
+    content: "✓ ";
+
+    color: #2F80ED;
+
+    font-weight: bold;
+}
+
+
+/* ================= FEE BUTTON ================= */
+
+.fee-button {
+
+    display: inline-block;
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    padding: 12px 28px;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+
+.fee-button:hover {
+
+    background-color: #123B6D;
+}
+
+
+/* ================= POPULAR PLAN ================= */
+
+.popular-plan {
+
+    border: 2px solid #2F80ED;
+
+    transform: translateY(-8px);
+}
+
+
+.popular-plan:hover {
+
+    transform: translateY(-14px);
+}
+
+
+.popular-label {
+
+    display: inline-block;
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    padding: 6px 15px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    margin-bottom: 20px;
+}
+
+
+/* ================= INCLUDED SECTION ================= */
+
+.included-section {
+
+    background-color: #FFFFFF;
+
+    padding: 70px 5%;
+
+    text-align: center;
+}
+
+
+.included-section > h1 {
+
+    color: #123B6D;
+
+    font-size: 34px;
+
+    margin-bottom: 40px;
+}
+
+
+.included-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+.included-box {
+
+    padding: 30px 25px;
+
+    background-color: #F5F8FC;
+
+    border-radius: 10px;
+}
+
+
+.included-icon {
+
+    width: 55px;
+
+    height: 55px;
+
+    margin: 0 auto 15px auto;
+
+    border-radius: 50%;
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 24px;
+
+    font-weight: bold;
+}
+
+
+.included-box h2 {
+
+    color: #123B6D;
+
+    font-size: 21px;
+
+    margin-bottom: 12px;
+}
+
+
+.included-box p {
+
+    color: #1F2937;
+
+    line-height: 1.6;
+}
+
+
+/* ================= PAYMENT SECTION ================= */
+
+.payment-section {
+
+    background-color: #F5F8FC;
+
+    padding: 70px 20px;
+
+    text-align: center;
+}
+
+
+.payment-section h1 {
+
+    color: #123B6D;
+
+    font-size: 34px;
+
+    margin-bottom: 15px;
+}
+
+
+.payment-section p {
+
+    color: #1F2937;
+
+    max-width: 700px;
+
+    margin: 0 auto 25px auto;
+
+    line-height: 1.6;
+}
+
+
+.payment-section a {
+
+    display: inline-block;
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    padding: 13px 28px;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+
+.payment-section a:hover {
+
+    background-color: #123B6D;
+}
+
+
+/* ================= FEES NAV BUTTON ================= */
+
+.fees-nav-button {
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    padding: 11px 22px;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+
+.fees-nav-button:hover {
+
+    background-color: #7DD3FC;
+
+    color: #123B6D;
+}
+
+
+/* =====================================================
+   FEES TABLET
+   ===================================================== */
+
+@media (max-width: 900px) {
+
+    .fees-hero h1 {
+
+        font-size: 40px;
+    }
+
+
+    .fees-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .included-container {
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .popular-plan {
+
+        transform: none;
+    }
+
+
+    .popular-plan:hover {
+
+        transform: translateY(-6px);
+    }
+
+}
+
+
+/* =====================================================
+   FEES MOBILE
+   ===================================================== */
+
+@media (max-width: 650px) {
+
+    .fees-hero {
+
+        min-height: 40vh;
+
+        padding: 50px 20px;
+    }
+
+
+    .fees-hero h1 {
+
+        font-size: 32px;
+    }
+
+
+    .fees-hero p {
+
+        font-size: 16px;
+    }
+
+
+    .fees-section {
+
+        padding: 60px 20px;
+    }
+
+
+    .fees-section > h1 {
+
+        font-size: 28px;
+    }
+
+
+    .fees-intro {
+
+        font-size: 16px;
+
+        margin-bottom: 35px;
+    }
+
+
+    .fees-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .fee-card {
+
+        padding: 30px 20px;
+    }
+
+
+    .popular-plan {
+
+        transform: none;
+    }
+
+
+    .included-section {
+
+        padding: 60px 20px;
+    }
+
+
+    .included-section > h1 {
+
+        font-size: 28px;
+    }
+
+
+    .included-container {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .payment-section {
+
+        padding: 60px 20px;
+    }
+
+
+    .payment-section h1 {
+
+        font-size: 28px;
+    }
+
+}
+
+/* =========================
+   CONTACT PAGE
+========================= */
+
+.contact-hero {
+    background-color: #123B6D;
+    color: #FFFFFF;
+    min-height: 45vh;
+    padding: 60px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.contact-hero-content {
+    max-width: 750px;
+}
+
+.contact-hero h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.contact-hero p {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+/* Contact Section */
+
+.contact-section {
+    background-color: #F5F8FC;
+    padding: 70px 5%;
+}
+
+.contact-container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 50px;
+    align-items: start;
+}
+
+
+/* Contact Information */
+
+.contact-info {
+    padding: 10px;
+}
+
+.contact-info h1 {
+    color: #123B6D;
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.contact-intro {
+    color: #1F2937;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    border-bottom: 1px solid #E5E7EB;
+    padding: 18px 0;
+    margin-bottom: 5px;
+}
+
+.contact-item h3 {
+    color: #123B6D;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.contact-item p {
+    color: #1F2937;
+    line-height: 1.5;
+}
+
+
+/* Contact Form */
+
+.contact-form-box {
+    background-color: #FFFFFF;
+    padding: 35px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form-box h1 {
+    color: #123B6D;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+
+    color: #123B6D;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+
+    padding: 12px 15px;
+
+    border: 1px solid #D1D5DB;
+
+    border-radius: 6px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 15px;
+
+    outline: none;
+
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #2F80ED;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+
+/* Submit Button */
+
+.contact-form-box button {
+    width: 100%;
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    border: none;
+
+    padding: 13px 20px;
+
+    border-radius: 25px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.contact-form-box button:hover {
+    background-color: #123B6D;
+}
+
+
+/* CTA */
+
+.contact-cta {
+    background-color: #FFFFFF;
+
+    padding: 70px 20px;
+
+    text-align: center;
+}
+
+.contact-cta h1 {
+    color: #123B6D;
+
+    font-size: 34px;
+
+    margin-bottom: 15px;
+}
+
+.contact-cta p {
+    color: #1F2937;
+
+    max-width: 700px;
+
+    margin: 0 auto 25px auto;
+
+    line-height: 1.6;
+}
+
+.contact-cta a {
+    display: inline-block;
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    padding: 13px 28px;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+.contact-cta a:hover {
+    background-color: #123B6D;
+}
+.contacts-nav-button {
+
+    background-color: #2F80ED;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    padding: 11px 22px;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+
+.contacts-nav-button:hover {
+
+    background-color: #7DD3FC;
+
+    color: #123B6D;
+}
+
+
+
+/* Responsive Design */
+
+@media (max-width: 900px) {
+
+    .contact-hero h1 {
+        font-size: 40px;
+    }
+
+    .contact-container {
+        gap: 30px;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .contact-hero {
+        min-height: 40vh;
+        padding: 50px 20px;
+    }
+
+    .contact-hero h1 {
+        font-size: 32px;
+    }
+
+    .contact-hero p {
+        font-size: 16px;
+    }
+
+    .contact-section {
+        padding: 60px 20px;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact-info h1 {
+        font-size: 28px;
+    }
+
+    .contact-form-box {
+        padding: 25px 20px;
+    }
+
+    .contact-form-box h1 {
+        font-size: 25px;
+    }
+
+    .contact-cta {
+        padding: 60px 20px;
+    }
+
+    .contact-cta h1 {
+        font-size: 28px;
+    }
+
+}
